@@ -14,9 +14,8 @@ body {
     width: 1000px;
     height: 100px;
     position: absolute;
-    top: 0;
-    left: auto;
-    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
 
    
 }
@@ -38,7 +37,7 @@ body {
         margin-top: 55px; 
         margin-left: 50px;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 14px;
 }
 
 #topo li a {
@@ -50,6 +49,21 @@ body {
     text-decoration: underline;
 }
 
+#campo-busca {
+    position: absolute;
+    right: 0;
+    top: 70%;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px #1a1a1a;
+    
+    
+}
+
+
+
 #banner {
     width: auto;
     height: auto;
@@ -57,6 +71,17 @@ body {
 }
 
 #banner img {
+    width: 100%;
+}
+
+
+#banner-interno {
+    width: auto;
+    height: auto;
+    
+}
+
+#banner-interno img {
     width: 100%;
 }
 
@@ -94,6 +119,66 @@ body {
 }
 
 
+#content-interno {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+#ativo {
+    color: #de8f75;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#menu-interno {
+    width: 255px;
+    height: auto;
+    margin-top: 100px;
+    border-right: solid 2px #aeb6c1;
+    float: left;
+
+}
+
+#menu-interno ul {
+    list-style-type: none;
+}
+
+#menu-interno li {
+    font-size: 16px;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+#menu-interno h2 {
+    color: #aeb6c1;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#menu-interno a {
+    text-decoration: none;
+    color: #1a1a1a;
+
+}
+
+
+#texto-interno {
+    width: 710px;
+    height: auto;
+    margin-top: 100px;
+    float: left;
+    padding-left: 30px;
+
+}
+
+#texto-interno h2 {
+    font-size: 24px;
+    color: #de8f75;
+    font-weight: normal;
+}
 
 .clear-float {
     clear: both;
@@ -121,7 +206,7 @@ hr {
 }
 
 .icones {
-    width: 40px;
+    width: auto;
     height: auto;
     float: left;
     margin-right: 25px;
