@@ -6,12 +6,14 @@ body {
 #container {
     width: 1000px;
     height: auto;
-    margin: 0 auto;
+     margin-left: auto;
+    margin-right: auto;
 }
 
 #topo {
     width: 1000px;
     height: 100px;
+   
 }
 
 #topo img {
@@ -41,3 +43,11 @@ body {
     text-decoration: underline;
 }
 
+#banner {
+    width: 1000px;
+    height: auto;
+}
+
+#banner img {
+    width: 1000px;
+}
