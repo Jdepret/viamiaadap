@@ -1,14 +1,9 @@
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
-    
-}
-
-#container {
-    width: auto;
-    height: auto;
 
 }
+
 
 #topo {
     width: 1000px;
@@ -17,49 +12,43 @@ body {
     left: 50%;
     transform: translateX(-50%);
 
-   
 }
 
-#topo img {
+#logo img {
     float: left;
     margin-top: 25px;
 
 }
 
-
-#topo ul {
-    list-style-type: none; 
-
+#menu {
+    margin-top: 55px;
 }
 
-#topo li {
-        display: inline-block;
-        margin-top: 55px; 
-        margin-left: 50px;
-        font-weight: bold;
-        font-size: 14px;
-}
-
-#topo li a {
+#menu a {
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 14px;
     color: #1a1a1a;
     text-decoration: none;
+
 }
 
-#topo li a:hover {
+
+#menu a:hover {
     text-decoration: underline;
 }
 
 #campo-busca {
     position: absolute;
     right: 0;
-    top: 70%;
+    top: 55%;
     background: none;
     border-top: none;
     border-left: none;
     border-right: none;
     border-bottom: solid 2px #1a1a1a;
-    
-    
+
+
 }
 
 
@@ -67,7 +56,7 @@ body {
 #banner {
     width: auto;
     height: auto;
-    
+
 }
 
 #banner img {
@@ -78,7 +67,8 @@ body {
 #banner-interno {
     width: auto;
     height: auto;
-    
+   padding-top:100px;
+
 }
 
 #banner-interno img {
@@ -97,6 +87,7 @@ body {
     color: #de8f75;
     font-weight: 300;
     padding-top: 50px;
+    margin: 0;
 }
 
 .img-destaques {
@@ -180,7 +171,7 @@ body {
     font-weight: normal;
 }
 
-.clear-float {
+.clearfix {
     clear: both;
 }
 
@@ -189,8 +180,8 @@ body {
     height: auto;
     clear: both;
     margin: 0 auto;
-    
-    
+
+
 }
 
 .separacao {
@@ -201,7 +192,7 @@ hr {
     border: 1px;
     border-color: #aeb6c1;
     width: 100%;
-    border-style:solid;
+    border-style: solid;
     margin-top: 100px;
 }
 
@@ -211,7 +202,7 @@ hr {
     float: left;
     margin-right: 25px;
     margin-top: 60px;
-    
+
 }
 
 .menu-info {
@@ -223,7 +214,7 @@ hr {
     color: #aeb6c1;
     font-size: 18px;
     font-weight: bold;
-    
+
 }
 
 .menu-info ul {
@@ -250,7 +241,7 @@ hr {
     height: auto;
     background-color: #de8f75;
     margin-top: 70px;
-    
+
 }
 
 #rodape p {
